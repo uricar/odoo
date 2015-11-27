@@ -96,6 +96,7 @@ class res_partner(osv.osv):
             return self.simple_vat_check(cr, uid, country_code, vat_number, context=context)
 
     def check_vat(self, cr, uid, ids, context=None):
+        return True
         user_company = self.pool.get('res.users').browse(cr, uid, uid).company_id
         if user_company.vat_check_vies:
             # force full VIES online check
