@@ -130,7 +130,7 @@ class Web_Editor(http.Controller):
     #------------------------------------------------------
     # add attachment (images or link)
     #------------------------------------------------------
-    @http.route('/web_editor/attachment/add', type='http', auth='user', methods=['POST'])
+    @http.route('/web_editor/attachment/add', type='http', auth='user', methods=['POST'], csrf=False)
     def attach(self, func, upload=None, url=None, disable_optimization=None, **kwargs):
         # the upload argument doesn't allow us to access the files if more than
         # one file is uploaded, as upload references the first file
