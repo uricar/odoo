@@ -480,7 +480,7 @@ msgstr "<strong>Crear la factura en Odoo</strong><br/> con la fecha de vencimien
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Customer Code:</strong>"
-msgstr "<strong>Código de cliente:</strong>"
+msgstr "<strong>C&oacute;digo de cliente:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_financial
@@ -3241,7 +3241,7 @@ msgstr "Indique por qué retira dinero de la caja registradora:"
 #: model:ir.ui.view,arch_db:account.view_account_type_form
 #, python-format
 msgid "Description"
-msgstr "Descripción"
+msgstr "Descripci&oacute;n"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term_note
@@ -8965,7 +8965,7 @@ msgstr "Referencia de proveedor"
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 #, python-format
 msgid "Vendor Refund"
-msgstr "Devolución a proveedor"
+msgstr "Devoluci&oacute;n a proveedor"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_product_template_supplier_taxes_id
