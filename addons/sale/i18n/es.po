@@ -144,7 +144,7 @@ msgstr "<span groups=\"sale.group_discount_per_so_line\">Desc.(%)</span>"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Fiscal Position Remark:</strong>"
-msgstr "<strong>Posici&oacute;n fiscal:</strong>"
+msgstr "<strong>Posición fiscal:</strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -154,7 +154,7 @@ msgstr "<strong>Término de Pago:</strong>"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Salesperson:</strong>"
-msgstr "<stong>Comercial:</strong>"
+msgstr "<strong>Comercial:</strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
